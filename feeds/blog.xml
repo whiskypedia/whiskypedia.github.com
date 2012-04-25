@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Whiskypedia Blog</title>
+  <subtitle>Real Reviews for Real People</subtitle>
+  <link href="http://whiskypedia.ca/"/>
+  <link rel="self" href="http://whiskypedia.ca/feeds/blog.xml"/>
+  
+  <updated>2012-04-07T10:00:00-02:30</updated>
+  <author>
+    <name>Steven Smolinski</name>
+  </author>
+  <contributor>
+    <name>Aaron</name>
+  </contributor>
+  <id>http://whiskypedia.ca/#blog</id>
+  <logo>/apple-touch-icon-57x57-precomposed.png</logo>
+  <rights>Copyright 2012 Steven Smolinski</rights>
+
+  
+  
+  <entry>
+    <title>Launch Day</title>
+    <link href="http://whiskypedia.ca/blog/2012/04/launch-day.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://whiskypedia.ca/blog/2012/04/launch-day.html</id>
+    <updated>2012-04-07T10:00:00-02:30</updated>
+    <content type="html">&lt;p&gt;Welcome to our humble spot on the Internet, where single malts are enjoyed and demystified. Blends are enjoyed too, but you&#39;re not supposed to admit that.&lt;/p&gt;
+&lt;h2&gt;Why Are We Here&lt;/h2&gt;
+&lt;p&gt;There are several reasons that we&#39;re writing this site. They&#39;re all correct, even though none are the single reason:&lt;/p&gt;
+&lt;p&gt;We got tired of snooty whisky reviews claiming all sorts of smells, tastes, and experiences that no regular person would ever taste.&lt;/p&gt;
+&lt;p&gt;We got annoyed by whisky snobs, who would like to keep single malts only available to the &#34;initiated&#34;.&lt;/p&gt;
+&lt;p&gt;We wanted to give some sort of justification to the continued abuse of our livers.&lt;/p&gt;
+&lt;p&gt;It&#39;s all of these, and more.&lt;/p&gt;
+&lt;h2&gt;Real Reviews For Real People&lt;/h2&gt;
+&lt;p&gt;So we&#39;re going into the depths of malt whiskies, and we&#39;re going to write reviews that regular people would recognize. We want people to buy a malt and know what they&#39;re actually getting. We&#39;d like people to be able to pick a small stable of whiskies to be prepared for all occasions.&lt;/p&gt;
+&lt;p&gt;We want to demystify the world of whisky, especially single malt Scotch whisky.&lt;/p&gt;</content>
+  </entry>
+  
+  
+
+</feed>
