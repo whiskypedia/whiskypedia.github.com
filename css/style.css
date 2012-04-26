@@ -1,5 +1,6 @@
 /* @override 
-	http://localhost:8000/css/style.css */
+	http://localhost:8000/css/style.css
+	http://whiskypedia.github.com/css/style.css */
 
 /*
  * HTML5 Boilerplate
@@ -320,9 +321,12 @@ body {
 
 #content-wrapper section, /* content-wrapper section is the non-article stuff like "about" */
 #content-wrapper article {
+	margin: 0 auto 40px;
+}
+
+.centercol {
 	float: left;
 	width: 71.42857143%; /* 500 / 700 */
-	margin: 0 auto 40px;
 }
 
 .supplements {
@@ -476,6 +480,16 @@ a:hover {
 	border-radius: 0.4em 0.4em 0 0;
 }
 
+.article header a,
+.article header a:hover,
+.article header a:visited {
+	text-decoration: none;
+	background-color: #441d13;
+	border: none;
+	color: #eceac5;
+}
+
+
 .article h1,
 .article h2,
 .article h3,
@@ -602,9 +616,12 @@ a:hover {
 
 #content-wrapper section,
 #content-wrapper article {
+	margin: 0 auto 20px;
+}
+
+.centercol {
 	float: none;
 	width: 100%;
-	margin: 0 auto 20px;
 }
 
 .verdict header h1 {
@@ -683,9 +700,12 @@ a:hover {
 
 #content-wrapper section,
 #content-wrapper article {
+	margin: 0 auto 20px;
+}
+
+.centercol {
 	float: none;
 	width: 100%;
-	margin: 0 auto 20px;
 }
 
 .verdict-wrapper {
@@ -723,7 +743,7 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-#content-wrapper article {
+.centercol {
 	float: left;
 	width: 71.42857143%;
 }
