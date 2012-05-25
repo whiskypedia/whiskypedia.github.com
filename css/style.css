@@ -1,6 +1,5 @@
 /* @override 
-	http://localhost:8000/css/style.css
-	http://whiskypedia.github.com/css/style.css */
+	http://localhost:8000/css/style.css */
 
 /*
  * HTML5 Boilerplate
@@ -440,15 +439,35 @@ a:hover {
 	border-radius: 0 0.8em 0.8em 0;
 }
 
+.primary-lightest {	background-color: #f6f7e4; color: #441d13; }
+.primary-lighter {	background-color: #eceac5; color: #441d13; }
+.primary-light {	background-color: #ccb894; color: #441d13; }
+.primary-color {	background-color: #ab9167; color: #2c130c; }
+.primary-darker {	background-color: #441d13; color: #f6f7e4; }
+.primary-darkest {	background-color: #2c130c; color: #f6f7e4; }
+
+
 #sidebar section {
-	background-color: #ab9167;
 	color: #441d13;
 	border-radius: 0.4em;
 	margin: 0 auto 3em;
 	font-family: 'Oxygen', sans-serif;
-	border-left: 1px solid #ccb894;
-	border-top: 1px solid #ccb894;
+	border: 1px solid #baa580;
 	text-shadow: #ccb894 0 1px 0;
+	/* thanks to http://gradients.glrzad.com/ - colors are #baa580 and #ccb894 */
+	background-image: -o-linear-gradient(bottom, rgb(186,165,128) 25%, rgb(204,184,148) 75%);
+	background-image: -moz-linear-gradient(bottom, rgb(186,165,128) 25%, rgb(204,184,148) 75%);
+	background-image: -webkit-linear-gradient(bottom, rgb(186,165,128) 25%, rgb(204,184,148) 75%);
+	background-image: -ms-linear-gradient(bottom, rgb(186,165,128) 25%, rgb(204,184,148) 75%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(186,165,128)),
+		color-stop(0.75, rgb(204,184,148))
+	);
+	background-image: linear-gradient(bottom, rgb(186,165,128) 25%, rgb(204,184,148) 75%);
 }
 
 #sidebar section p {
@@ -596,6 +615,10 @@ a:hover {
 
 @media only screen and (max-width: 1024px) {
 
+#page {
+	font-size: 1.1em;
+}
+
 #header h1 {
 	font-size: 1.6em;
 }
@@ -604,7 +627,7 @@ a:hover {
 }
 #main-nav {
 	padding: 0;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 #sidebar {
@@ -631,11 +654,16 @@ a:hover {
 	font-size: 0.9em;
 }
 
-.supplements {
-	float: none;
-	width: 100%;
-	margin: 0 auto 30px;
+.article {
+	clear: both;
 }
+
+.supplements {
+	float: left;
+	width: 40%;
+	margin: 30px 5%;
+}
+
 
 } /* end @media < 1024 */
 
@@ -736,6 +764,14 @@ a:hover {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
+
+#sidebar section {
+	float: left;
+	width: 40%;
+	margin: 2em 5%;
+}
+
+
 }
 
 /* iPads (landscape) ----------- */
@@ -766,6 +802,16 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
+.article {
+	clear: both;
+}
+
+.supplements {
+	float: left;
+	width: 40%;
+	margin: 30px 5%;
+}
+
 }
 
 
